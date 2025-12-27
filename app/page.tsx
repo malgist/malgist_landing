@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./components/ui/Navbar";
 import BackedBy from "./components/BackedBy";
 import Definition from "./components/Definition";

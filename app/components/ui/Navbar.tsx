@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
@@ -12,15 +13,15 @@ export default function Navbar() {
         transition={{ duration: 0.6 }}
         className="flex justify-between w-full max-w-2xl bg-white/95 text-gray-900 px-6 py-3 rounded-full items-center text-base shadow-sm backdrop-blur-lg border border-gray-200"
       >
-        <a href="/" className="flex-shrink-0">
+        <Link href="/" className="flex-shrink-0">
           <Image
-            src="/logo.png"
+            src="/Logo.png"
             alt="Malgist Logo"
             width={32}
             height={32}
             className="transition-transform duration-300 hover:scale-110"
           />
-        </a>
+        </Link>
 
         <ol className="hidden md:flex gap-6">
           <li className="hover:text-[#151816] cursor-pointer transition-colors duration-300 font-medium">
